@@ -1,0 +1,15 @@
+[project]
+name = "simple-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "git-filter-repo>=2.47.0",
+    "langfuse>=3.3.3",
+    "nest-asyncio>=1.6.0",
+    "openai-agents>=0.2.9",
+    "pydantic-ai[logfire]>=0.8.1",
+    "rich>=14.1.0",
+]
